@@ -18,3 +18,9 @@ section .colour{
     position: absolute;
     filter: blur(150px);
 }
+section .colour:nth-child(1){
+    top: -350px;
+    width: 600px;
+    height: 600px;
+    background: #bf4ad4;
+}
