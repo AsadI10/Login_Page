@@ -14,3 +14,7 @@ section{
     justify-content: center;
     background-color: linear-gradient(to bottom, #f7f7fe, #dff1ff);
 }
+section .colour{
+    position: absolute;
+    filter: blur(150px);
+}
