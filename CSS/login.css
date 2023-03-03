@@ -38,3 +38,6 @@ section .colour:nth-child(3){
     height: 300px;
     background: #2b67f3;
 }
+.box{
+    position: relative;
+}
