@@ -131,3 +131,7 @@ section .colour:nth-child(3){
     background: #fff;
     position: absolute;
 }
+.form .input__box{
+    width: 100%;
+    margin-top: 20px;
+}
