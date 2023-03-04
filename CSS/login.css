@@ -41,3 +41,11 @@ section .colour:nth-child(3){
 .box{
     position: relative;
 }
+.box .square{
+    position: absolute;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    background: #ffffff1a;
+    animation-delay: calc(-1s * var(--i));
+    animation: animate 10s linear infinite;
+}
