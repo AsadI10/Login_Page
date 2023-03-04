@@ -115,3 +115,10 @@ section .colour:nth-child(3){
     padding: 40px;
     position: relative;
 }
+.form h2{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
