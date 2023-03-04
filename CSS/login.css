@@ -48,5 +48,8 @@ section .colour:nth-child(3){
     background: #ffffff1a;
     animation-delay: calc(-1s * var(--i));
     animation: animate 10s linear infinite;
-    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 25px 45px #0000001a;
+    border: 1px solid #ffffff1a;
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
