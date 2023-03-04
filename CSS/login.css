@@ -82,3 +82,9 @@ section .colour:nth-child(3){
     height: 50px;
     bottom: -80px;
 }
+.box .square:nth-child(5){
+    top: -80px;
+    left: 140px;
+    width: 60px;
+    height: 60px;
+}
