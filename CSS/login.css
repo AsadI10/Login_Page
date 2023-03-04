@@ -122,3 +122,12 @@ section .colour:nth-child(3){
     letter-spacing: 1px;
     margin-bottom: 40px;
 }
+.form h2::before{
+    left: 0;
+    width: 80px;
+    height: 4px;
+    content: "";
+    bottom: -10px;
+    background: #fff;
+    position: absolute;
+}
